@@ -36,6 +36,6 @@ The module grants no autonomous Node refresh authority. A headless integration m
 
 ## Compatibility scope
 
-This extraction preserves the existing source identity and representation model. The future explicit representation/EndpointIR migration remains separate R10 work. This Component does not claim that migration is complete.
+The current contract preserves existing source identity and legacy representation behavior. A future explicit source-representation model requires a separate compatibility migration.
 
 The source retains GPL-3.0-only and filtered Git ancestry. See `NOTICE` and `SOURCE_PROVENANCE.json` for attribution and exact source mapping.
