@@ -1,0 +1,11 @@
+Remote Outbound Subscriptions
+
+Derived from MalenkiySolovey/solovey-ui under GPL-3.0-only.
+The retained filtered Git ancestry preserves original source authors and commit messages.
+
+Retained authors:
+- MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com>
+- Alireza Ahmadi <alireza7@gmail.com>
+
+Backend execution, durable transactions, authorization, secrets, parser implementations,
+CoreRuntime and publication remain with their existing Product/Host owners.
