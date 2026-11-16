@@ -617,6 +617,6 @@
     "go.mod": "b88b52fb4dc828ae5eea55a6c719d4f89bb88f4666c12f5d1a52e43c1110e08d",
     "go.sum": "4abd74b9e8722f966e440630852e0c926a6d5c008f18025da6ca11317cb4065c",
     "scripts/check-frontend.mjs": "299060784441a034f744dbe1a76df555ad9d60258833a580a1bce51d60ece6c9",
-    "scripts/check-source.mjs": "6398bb40c1326038d84e53fbe1d18b29a599f8b01118f00834145c3b911164ee"
+    "scripts/check-source.mjs": "24f07862da8c43b03d773cdb65e11b16fabc0a0252c030d5508808a3b75881da"
   }
 }

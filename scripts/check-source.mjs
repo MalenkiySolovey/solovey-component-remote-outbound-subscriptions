@@ -14,7 +14,7 @@ const identity='github.com/MalenkiySolovey/solovey-component-remote-outbound-sub
 const mod=JSON.parse(execFileSync('go',['mod','edit','-json'],{cwd:root,encoding:'utf8'}))
 assert.equal(mod.Module.Path,identity)
 assert.ok(!(mod.Replace??[]).length,'source module replacements are forbidden')
-assert.deepEqual(Object.fromEntries((mod.Require??[]).map(item=>[item.Path,item.Version])),{'github.com/MalenkiySolovey/solovey-host':'v0.10.0':'v0.49.0'},'unreviewed module requirements')
+assert.deepEqual(Object.fromEntries((mod.Require??[]).map(item=>[item.Path,item.Version])),{'github.com/MalenkiySolovey/solovey-host':'v0.10.0'},'unreviewed module requirements')
 const source=JSON.parse(fs.readFileSync(path.join(root,'SOURCE_PROVENANCE.json')))
 assert.equal(source.schema,'solovey.component.source-provenance/v1')
 assert.equal(source.component,'remote-outbound-subscriptions')
